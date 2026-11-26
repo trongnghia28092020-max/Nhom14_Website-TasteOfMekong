@@ -97,7 +97,7 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="TrangChu.aspx" />
+    <Content Include="User\TrangChu.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -105,11 +105,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TrangChu.aspx.cs">
+    <Compile Include="User\TrangChu.aspx.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TrangChu.aspx.designer.cs">
+    <Compile Include="User\TrangChu.aspx.designer.cs">
       <DependentUpon>TrangChu.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -145,6 +145,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Admin\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
